@@ -60,8 +60,8 @@ function App() {
               <img src="images/meyerhoff_retreat.jpg" width="300px"className="figure-img img-fluid rounded" alt="Meyerhoff Scholars at a retreat."/>
               <figcaption className="figure-caption">Meyerhoff Scholars at the Family Retreat (2023). My cohort is in the Red! </figcaption>
             </figure>
-            <p>You can find my <b>Resume</b> linked  
-              <a href="https://www.linkedin.com/in/jturnerumbc/overlay/1707495708789/single-media-viewer/?profileId=ACoAADFZ81kBxJgjiK-rkE3HldHbuj2F-I5xfe4">here</a> (on my LinkedIn).
+          <p>You can find my <b>Resume</b> linked<br/>
+              <a href="https://www.linkedin.com/in/jturnerumbc/overlay/1707495708789/single-media-viewer/?profileId=ACoAADFZ81kBxJgjiK-rkE3HldHbuj2F-I5xfe4"> here</a> (on my LinkedIn).
             </p>
           </div>
           <hr/>
