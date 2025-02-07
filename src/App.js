@@ -15,41 +15,12 @@ function App() {
     <Box>
       <Grid container>
         <Grid size={3} style={{"position":"sticky", "background-color":"black", "color": "white"}}>
-          {/* <div class="block d-flex justify-content-center text-center"> */}
           <h1 className="text-center">Jessica Turner</h1>
           <img width="200px" height="200px" className="rounded-circle center" alt="Jess' Headshot" src="images/jess_headshot.jpg" />
           <h2 className="text-center" style={{"marginTop":"10px"}}>Computer Scientist</h2>
-          {/* </div> 
           
-          <hr>
-          <ul class="nav nav-pills flex-column mb-auto">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link" aria-current="page">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="about-me.html" class="nav-link active text-white">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                About Me
-              </a>
-            </li>
-            {/* <li>
-              <a href="#" class="nav-link text-white">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                Research Experience
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-                Project Experience
-              </a>
-            </li>
-          </ul> */}
         </Grid>
-        <Grid className="d-flex flex-column flex-shrink-9 body" style={{"flex": "1", "marginTop":"25px"}}>
+        <Grid  className="d-flex flex-column flex-shrink-9 body" style={{"flex": "1", "marginTop":"25px"}}>
           <div className="text-center justify-content-center block">
             <h1>About Me</h1>
             <p>
