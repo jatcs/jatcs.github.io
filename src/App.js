@@ -9,16 +9,12 @@ import Container from '@mui/material/Container';
 
 function App() {
   return (
-    <div className="App">
-
-    {/* Found out to use p-0 to get rid of left margin from this source: https://stackoverflow.com/a/54589229 */}
     <Box>
       <Grid container>
         <Grid size={3} style={{"position":"sticky", "background-color":"black", "color": "white"}}>
           <h1 className="text-center">Jessica Turner</h1>
           <img width="200px" height="200px" className="rounded-circle center" alt="Jess' Headshot" src="images/jess_headshot.jpg" />
           <h2 className="text-center" style={{"marginTop":"10px"}}>Computer Scientist</h2>
-          
         </Grid>
         <Grid  className="d-flex flex-column flex-shrink-9 body" style={{"flex": "1", "marginTop":"25px"}}>
           <div className="text-center justify-content-center block">
@@ -46,8 +42,6 @@ function App() {
         </Grid>
       </Grid>
     </Box>
-  
-    </div>
   );
 }
 
