@@ -19,7 +19,7 @@ function App() {
 
         <Grid direction="row" id="welcome" 
           sx={{ display:"flex", flexDirection:"column", textAlign:"center", height:"100vh", justifyContent:"space-around"}}>
-          <h2>Hello, I'm Jess!</h2>
+          <h2>👋 Hello, I'm Jess!</h2>
           <p>I write code, teach, and overall enthuse about music.</p>
           <Box sx={{marginTop: "5vh"}}>
             Sections: <a href="#about-me">About Me</a> | <a href="motivation-and-background">Motivation and Background</a>
