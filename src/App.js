@@ -10,11 +10,12 @@ import Container from '@mui/material/Container';
 function App() {
   return (
     <Box sx={{flexGrow: 1}}>
-      <Grid container 
-        direction="column"
-        alignItems="center"
-        justifyContent="center"
-        width="100%"
+      <Grid container
+        sx={{
+        direction:"column",
+        alignItems:"center",
+        justifyContent:"center",
+        }}
       >
 
         <Grid direction="row" id="welcome" 
