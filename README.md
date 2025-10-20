@@ -1,3 +1,7 @@
+# Welcome to my portfolio!
+Hi, I'm Jess and this repository contains the source code for my (responsive) portfolio website.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
